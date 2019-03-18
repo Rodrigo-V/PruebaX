@@ -44,6 +44,9 @@ Public Class Form2
                 If conn.State = ConnectionState.Open Then
                     cmd.Connection = conn
                     conn.Close()
+
+
+
                 End If
 
             End Try
